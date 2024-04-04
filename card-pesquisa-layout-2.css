@@ -1,0 +1,5 @@
+@media only screen and (max-width: 991px) {
+    .search-tabs-2 li.active a {
+        background: transparent;
+    }
+}

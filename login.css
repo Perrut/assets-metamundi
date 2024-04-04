@@ -1,0 +1,4 @@
+#loginPage > div > div > div.col-xs-12.col-sm-12.col-md-5.col-lg-4.authfy-panel-left.direita > div > div > div.row > div > form > div.row.remember-row > div.col-xs-12 > p > a,
+#loginPage > div > div > div.col-xs-12.col-sm-12.col-md-5.col-lg-4.authfy-panel-left.direita > div > div > div.row > div > form > div:nth-child(4) > p > a {
+    color: #4f77ff !important;
+}

@@ -1,0 +1,486 @@
+html {
+    scroll-behavior: smooth;
+    visibility: hidden;
+}
+
+body {
+    background-color: white;
+    color: #212c52;
+}
+
+/* Aumenta logos */
+
+#header>div.primary-background-color.primary-contrast-color>div>div.container.main-header-mobile.primary-text>a>div>div>img {
+    width: 135px !important;
+}
+
+#imagemLogo>div>img {
+    width: 150px;
+}
+
+/* === */
+
+/* Header - Inicio */
+
+#header {
+    background-color: white;
+}
+
+#main-menu>nav>div>ul>div>ul li {
+    font-weight: 500;
+}
+
+#header>div.primary-color>div.hidden-mobile.container.hide-in-mobile>div>div>div>div.content-auth>button span,
+#header>div.primary-color>div.hidden-mobile.container.hide-in-mobile>div>div>div>div.el-dropdown>span {
+    font-weight: 500;
+}
+
+#main-menu>nav>div>ul>div>ul div li,
+#header>div.primary-color>div.hidden-mobile.container.hide-in-mobile>div>div>div * {
+    color: #212c52 !important;
+}
+
+/* Header - Final */
+
+.primary-contrast-color .header-mobile-nav * {
+    color: #212c52 !important;
+}
+
+.modal-body li.el-menu-item {
+    color: #212c52 !important;
+}
+
+.modal-body .text-capitalize,
+.modal-body .chaser-currency,
+.modal-body .el-icon-close {
+    color: #212c52 !important;
+}
+
+/* Card expansível - Início */
+
+#div-lazy-2 {
+    background-image: url(https://repositorio-prod.azurewebsites.net/api/repository/Produto/19623/TUsXEy-f);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.metamundi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.metamundi-card-expansivel {
+    width: 240px;
+    height: 210px;
+    transition: height 0.5s;
+    overflow-y: hidden;
+    margin: 16px;
+    padding: 8px 0;
+    border-radius: 8px;
+    background-color: white;
+    padding-top: 16px;
+}
+
+.metamundi-card-expansivel * {
+    color: #212c52;
+}
+
+.metamundi-card-expansivel--expandido {
+    height: 456px;
+    transition: height 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.metamundi-card-expansivel .metamundi-card-expansivel-background {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    display: block;
+    object-fit: none;
+}
+
+.metamundi-card-expansivel .metamundi-card-expansivel-titulo {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.metamundi-card-expansivel .metamundi-card-expansivel-conteudo {
+    padding: 0 16px;
+    text-align: center;
+    display: none;
+}
+
+.metamundi-card-expansivel--expandido .metamundi-card-expansivel-conteudo {
+    display: block;
+}
+
+/* Card expansível - Final */
+
+/* Quem somos - Início */
+
+.metamundi-quem-somos-conteudo {
+    color: #212c52;
+}
+
+.metamundi-container-quem-somos {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.metamundi-quem-somos-titulo {
+    color: #212c52;
+}
+
+.metamundi-quem-somos-conteudo {
+    margin-bottom: 32px;
+}
+
+.metamundi-quem-somos-conteudo--oculto {
+    display: none;
+}
+
+.metamundi-quem-somos-conteudo--exibe {
+    display: block;
+}
+
+.metamundi-quem-somos-conteudo--hide {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.metamundi-quem-somos-conteudo--show {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#metamundi-quem-somos-toggle-button {
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 32px;
+    background-color: #60b670;
+    color: #212c52;
+}
+
+.metamundi-quem-somos-container-fundadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.metamundi-quem-somos-fundadores-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 16px;
+}
+
+.metamundi-quem-somos-fundadores-nome,
+.metamundi-quem-somos-fundadores-texto,
+.metamundi-quem-somos-fundadores-texto p {
+    text-align: center;
+    color: #212c52;
+}
+
+.metamundi-quem-somos-fundadores-texto {
+    min-width: 300px;
+    max-width: 500px;
+    padding: 0;
+}
+
+/* Quem somos - Final */
+
+/* Estatísticas - Início */
+
+/* .metamundi-estatisticas-indicador {
+    width: 240px;
+}
+
+.metamundi-estatisticas-indicador p {
+    text-align: center;
+    color: #212c52;
+}
+
+.metamundi-estatisticas-quantidade,
+.metamundi-estatisticas-descricao {
+    margin: 0 auto;
+}
+
+.metamundi-estatisticas-quantidade p {
+    font-size: 48px;
+    color: #212c52;
+} */
+
+/* Estatísticas - Final */
+
+/* Depoimentos - Inicio */
+
+.metamundi-depoimentos-legenda {
+    text-align: center;
+}
+
+.metamundi-depoimentos-slider-wrapper {
+    margin: 16px 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 46px;
+}
+
+.metamundi-depoimentos-slides-container {
+    /* max-height: 500px; */
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.metamundi-depoimentos-slide-arrow {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 64px;
+    background-color: white;
+    border: none;
+    width: 32px;
+    font-size: 48px;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 100ms;
+    color: #212c52;
+}
+
+.metamundi-depoimentos-slide-arrow:hover,
+.metamundi-depoimentos-slide-arrow:focus {
+    opacity: 1;
+}
+
+#metamundi-depoimentos-slide-arrow-prev {
+    left: 0;
+    padding-left: 4px;
+    border-radius: 0 32px 32px 0;
+}
+
+#metamundi-depoimentos-slide-arrow-next {
+    right: 0;
+    padding-left: 12px;
+    border-radius: 32px 0 0 32px;
+}
+
+.metamundi-depoimentos-slide {
+    width: 100%;
+    /* height: 400px; */
+    flex: 1 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li.metamundi-depoimentos-slide {
+    height: auto;
+}
+
+.metamundi-depoimentos-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.metamundi-depoimentos-titulo {
+    margin: 46px 0 0;
+}
+
+.metamundi-depoimentos-conteudo {
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.metamundi-depoimentos-conteudo p {
+    text-align: center;
+    max-width: 400px;
+}
+
+#div-lazy-3 {
+    background: #b1c1e2;
+}
+
+/* Depoimentos - Final */
+
+/* Destaque Home - Inicio */
+
+#div-lazy-0 {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1273%26quot%3b)' fill='none'%3e%3cpath d='M981.6648217620948 352.52056539345125L855.2572592525835 276.5672391342212 905.7114955028648 478.92812790296256z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1127.6880124427894 496.33721803619835L1122.471516644344 342.7600829924553 1007.3299541196918 411.9441135268185z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1049.158%2c671.039C1086.448%2c672.282%2c1112.997%2c637.335%2c1128.873%2c603.57C1142.335%2c574.941%2c1137.776%2c542.909%2c1122.409%2c515.256C1106.499%2c486.625%2c1081.841%2c462.295%2c1049.158%2c460.122C1012.683%2c457.696%2c973.524%2c471.72%2c956.838%2c504.246C941.073%2c534.977%2c961.422%2c568.327%2c978.148%2c598.546C995.705%2c630.266%2c1012.923%2c669.831%2c1049.158%2c671.039' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M36.123180746657226 46.08050096120114L175.25913744407922 176.07500620776395 215.52740983641505 14.56778707015539z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M440.358%2c248.418C475.053%2c246.837%2c503.487%2c226.161%2c523.22%2c197.58C547.022%2c163.105%2c571.375%2c122.29%2c553.644%2c84.334C533.96%2c42.196%2c486.798%2c17.671%2c440.358%2c20.201C397.437%2c22.54%2c366.533%2c57.526%2c346.611%2c95.615C328.361%2c130.507%2c322.701%2c172.218%2c343.292%2c205.781C363.099%2c238.065%2c402.521%2c250.143%2c440.358%2c248.418' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M956.37 221.19 a99.7 99.7 0 1 0 199.4 0 a99.7 99.7 0 1 0 -199.4 0z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M961.8819543556807 26.2773259730081L930.9108599908615 127.57921107349654 1098.3492348240038 123.3849100704812z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M608.8695938553036 65.96235733098136L539.5599011612185 85.83659189937123 604.0260993608458 179.864013656304z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1326.507799363173 568.1767544653428L1406.0263049133864 450.28572186213273 1208.616766759963 488.6582489151295z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M261.9%2c525.265C287.882%2c525.865%2c309.326%2c506.571%2c321.562%2c483.643C333.055%2c462.107%2c333.081%2c436.285%2c320.572%2c415.323C308.366%2c394.87%2c285.699%2c382.709%2c261.9%2c383.668C239.595%2c384.567%2c221.876%2c400.314%2c210.883%2c419.742C200.083%2c438.828%2c197.286%2c461.248%2c206.831%2c480.992C217.819%2c503.719%2c236.663%2c524.682%2c261.9%2c525.265' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-128.8 303.06 a158.9 158.9 0 1 0 317.8 0 a158.9 158.9 0 1 0 -317.8 0z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M581.0526114726057 352.571931932579L460.90895520075486 298.9432749902139 470.93294878473336 413.5180459376323z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M542.1409359614099 192.9934880295635L567.4499284092574 281.2564338512471 655.712874230941 255.9474414033996 630.4038817830935 167.68449558171602z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M598.635%2c110.073C622.978%2c109.25%2c649.312%2c107.108%2c662.704%2c86.763C677.23%2c64.695%2c675.24%2c36.042%2c662.654%2c12.812C649.404%2c-11.643%2c626.449%2c-31.601%2c598.635%2c-31.489C570.976%2c-31.378%2c549.495%2c-10.535%2c535.504%2c13.324C521.308%2c37.532%2c511.256%2c67.865%2c526.592%2c91.367C541.124%2c113.637%2c572.058%2c110.972%2c598.635%2c110.073' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1146.34 387.61 a122.94 122.94 0 1 0 245.88 0 a122.94 122.94 0 1 0 -245.88 0z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1468.7240499353375 489.9395974658206L1484.9605650417038 306.3704885652616 1337.793197110272 371.89362230969067z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M93.25336353317442 98.92531457659717L51.45722993288903 227.560586875773 221.88863583235025 140.72144817688257z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M660.4123297270063 195.38645117573571L587.9304526732446 69.84415749065977 534.8700360419303 267.86832822949737z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M443.5692628041016 444.1109019611646L397.1435238281887 356.7967859959045 309.8294078629285 403.2225249718174 356.2551468388415 490.53664093707755z' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M325.205%2c476.512C372.061%2c476.52%2c420.531%2c465.157%2c446.227%2c425.975C474.317%2c383.142%2c478.035%2c327.011%2c452.29%2c282.729C426.665%2c238.653%2c376.184%2c217.095%2c325.205%2c217.812C275.538%2c218.51%2c229.121%2c243.273%2c204.162%2c286.219C179.081%2c329.376%2c177.463%2c383.816%2c204.253%2c425.934C229.391%2c465.454%2c278.367%2c476.504%2c325.205%2c476.512' fill='rgba(218%2c 218%2c 218%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1273'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+.metamundi-separador-home {
+    height: 100px;
+}
+
+.metamundi-destaque-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+}
+
+.metamundi-destaque-texto {
+    max-width: 300px;
+}
+
+.metamundi-destaque-texto h3 {
+    font-size: 48px;
+    color: #212c52;
+}
+
+.metamundi-destaque-imagem img {
+    width: 600px;
+    height: 360px;
+}
+
+/* Destaque Home - Final */
+
+/* Footer - Inicio */
+
+body #footer {
+    margin-top: 0;
+}
+
+body #footer .footer-wrapper {
+    background: #b1c1e2 !important;
+    padding-bottom: 0 !important;
+}
+
+body footer#footer * {
+    color: #212c52 !important;
+}
+
+#footer>div.footer-wrapper>div>div>div:nth-child(2)>b-row>ul.discover li {
+    color: #212c52 !important;
+}
+
+.social-icons li a:hover {
+    background-color: transparent !important;
+}
+
+/* Footer - Final */
+
+/* SweetAlert - Inicio */
+
+body>div.swal2-container.swal2-center.swal2-backdrop-show>div>div.swal2-actions>button.swal2-confirm.swal2-styled.swal2-default-outline {
+    line-height: unset;
+}
+
+/* SweetAlert - Final */
+
+/* Diferenciais - Inicio */
+
+.metamundi-diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.metamundi-diferenciais * {
+    color: #212c52;
+}
+
+.metamundi-diferenciais-imagem,
+.metamundi-diferenciais-conteudo {
+    width: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .metamundi-diferenciais-imagem,
+    .metamundi-diferenciais-conteudo {
+        max-width: 530px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .metamundi-diferenciais-imagem,
+    .metamundi-diferenciais-conteudo {
+        max-width: 580px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .metamundi-diferenciais-imagem,
+    .metamundi-diferenciais-conteudo {
+        max-width: 620px;
+    }
+}
+
+.metamundi-diferenciais-imagem img {
+    width: calc(100% - 20px);
+}
+
+.metamundi-diferenciais-imagem img,
+.metamundi-diferenciais-conteudo h2,
+.metamundi-diferenciais-conteudo ul {
+    padding: 10px;
+}
+
+.metamundi-diferenciais-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.metamundi-diferenciais-item-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* Diferenciais - FInal */
+
+@media (max-width: 599px) {
+    .metamundi-container {
+        justify-content: center;
+    }
+
+    .metamundi-separador-home {
+        height: 0;
+    }
+
+    .metamundi-destaque-home {
+        flex-direction: column-reverse;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .metamundi-destaque-imagem img {
+        width: 300px;
+        height: 180px;
+    }
+
+    /* .metamundi-depoimentos-slide {
+        height: 430px;
+    } */
+}
